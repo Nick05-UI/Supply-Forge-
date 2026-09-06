@@ -1,0 +1,35 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sheetTop1" x1="6" y1="12" x2="38" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <linearGradient id="sheetEdge1" x1="6" y1="20" x2="38" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <filter id="sheetShadow" x="2" y="10" width="40" height="30" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  
+  <g filter="url(#sheetShadow)">
+    <!-- Bottom Sheet 3 -->
+    <path d="M22 28L36 21L22 14L8 21L22 28Z" fill="#94A3B8"/>
+    <path d="M8 21V24L22 31V28L8 21Z" fill="#475569"/>
+    <path d="M36 21V24L22 31V28L36 21Z" fill="#64748B"/>
+
+    <!-- Middle Sheet 2 -->
+    <path d="M22 25L36 18L22 11L8 18L22 25Z" fill="#CBD5E1"/>
+    <path d="M8 18V21L22 28V25L8 18Z" fill="#64748B"/>
+    <path d="M36 18V21L22 28V25L36 18Z" fill="#475569"/>
+
+    <!-- Top Sheet 1 -->
+    <path d="M22 22L36 15L22 8L8 15L22 22Z" fill="url(#sheetTop1)"/>
+    <path d="M8 15V18L22 25V22L8 15Z" fill="#64748B"/>
+    <path d="M36 15V18L22 25V22L36 15Z" fill="#475569"/>
+    <!-- Specular Highlight line -->
+    <path d="M10 15.5L22 21.5L34 15.5" stroke="#FFFFFF" stroke-width="0.75" stroke-opacity="0.6"/>
+  </g>
+</svg>

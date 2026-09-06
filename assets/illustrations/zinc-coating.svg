@@ -1,0 +1,43 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="canBody" x1="12" y1="18" x2="32" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="35%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="paintRim" x1="12" y1="12" x2="32" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#CBD5E1"/>
+      <stop offset="50%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <filter id="canShadow" x="6" y="8" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#78350F" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#canShadow)">
+    <!-- Metal Handle arch -->
+    <path d="M12 18C12 10 32 10 32 18" stroke="#94A3B8" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+    <rect x="19" y="10" width="6" height="3" rx="1.5" fill="#475569"/>
+
+    <!-- Can Body -->
+    <path d="M13 18L15 36C15 38 29 38 29 36L31 18H13Z" fill="url(#canBody)"/>
+    <!-- Bottom curve -->
+    <ellipse cx="22" cy="36" rx="7" ry="2" fill="#92400E"/>
+
+    <!-- Paint Dripping / Coating label stripe -->
+    <rect x="14" y="24" width="16" height="6" fill="#FDE68A" fill-opacity="0.9"/>
+    <path d="M16 20C17 22 18 25 19 25C20 25 21 21 22 21C23 21 24 26 25 26C26 26 27 21 28 20" fill="#F59E0B"/>
+
+    <!-- Metal Rim Top -->
+    <ellipse cx="22" cy="18" rx="9" ry="3.5" fill="url(#paintRim)"/>
+    <!-- Inside liquid coating (orange) -->
+    <ellipse cx="22" cy="18" rx="7.5" ry="2.6" fill="#EA580C"/>
+    <!-- Liquid reflection -->
+    <path d="M18 17.5C19 17 23 17 25 17.5" stroke="#FDBA74" stroke-width="0.8" stroke-linecap="round"/>
+
+    <!-- Handle Pivot Studs -->
+    <circle cx="12.5" cy="19" r="1.5" fill="#475569"/>
+    <circle cx="31.5" cy="19" r="1.5" fill="#475569"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ingotTop" x1="12" y1="8" x2="32" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="60%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <linearGradient id="ingotSide" x1="8" y1="16" x2="36" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <filter id="ingotShadow" x="3" y="10" width="38" height="28" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#ingotShadow)">
+    <!-- Bottom Ingot Left -->
+    <g transform="translate(-4, 6) scale(0.85)">
+      <!-- Top -->
+      <path d="M14 18L26 13L36 17L24 22L14 18Z" fill="#94A3B8"/>
+      <!-- Front Left -->
+      <path d="M14 18L24 22V26L14 22V18Z" fill="#64748B"/>
+      <!-- Front Right -->
+      <path d="M24 22L36 17V21L24 26V22Z" fill="#475569"/>
+    </g>
+
+    <!-- Bottom Ingot Right -->
+    <g transform="translate(10, 6) scale(0.85)">
+      <path d="M14 18L26 13L36 17L24 22L14 18Z" fill="#CBD5E1"/>
+      <path d="M14 18L24 22V26L14 22V18Z" fill="#64748B"/>
+      <path d="M24 22L36 17V21L24 26V22Z" fill="#475569"/>
+    </g>
+
+    <!-- Top Ingot (Centered) -->
+    <g transform="translate(3, -1) scale(0.9)">
+      <!-- Top Face -->
+      <path d="M13 17L26 12L37 16L24 21L13 17Z" fill="url(#ingotTop)"/>
+      <!-- Left Face -->
+      <path d="M13 17L24 21V26L13 22V17Z" fill="#64748B"/>
+      <!-- Right Face -->
+      <path d="M24 21L37 16V21L24 26V21Z" fill="#475569"/>
+      <!-- Top Bevel Highlight -->
+      <path d="M14 17.2L25.8 12.5L36 16.3" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.8"/>
+    </g>
+  </g>
+</svg>
