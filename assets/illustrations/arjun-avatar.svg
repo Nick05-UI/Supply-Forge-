@@ -1,0 +1,38 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="avatarClip">
+      <circle cx="24" cy="24" r="22"/>
+    </clipPath>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="24" cy="24" r="22" fill="#D1FAE5"/>
+  <g clip-path="url(#avatarClip)">
+    <!-- Neck -->
+    <path d="M21 27H27V33H21V27Z" fill="#D49B72"/>
+    <!-- Head / Face -->
+    <ellipse cx="24" cy="20" rx="8.5" ry="9.5" fill="#E8B088"/>
+    <!-- Ears -->
+    <circle cx="15.5" cy="21" r="2" fill="#D49B72"/>
+    <circle cx="32.5" cy="21" r="2" fill="#D49B72"/>
+    <!-- Hair -->
+    <path d="M15.5 19C15.5 13 18 10 24 10C29 10 32.5 12.5 32.5 18C31 16 28 15 25 15C20 15 17 17 15.5 19Z" fill="#1E293B"/>
+    <path d="M16 19C16 16 18 13.5 22 13C26 12.5 29 14 31.5 17C31.5 17 29.5 15.5 26 15.5C21.5 15.5 18 18 16 19Z" fill="#0F172A"/>
+    <!-- Eyes -->
+    <circle cx="20.5" cy="20" r="1.2" fill="#1E293B"/>
+    <circle cx="27.5" cy="20" r="1.2" fill="#1E293B"/>
+    <!-- Eyebrows -->
+    <path d="M19 18C20 17.5 21.5 17.5 22 18" stroke="#1E293B" stroke-width="0.9" stroke-linecap="round"/>
+    <path d="M26 18C26.5 17.5 28 17.5 29 18" stroke="#1E293B" stroke-width="0.9" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M24 19.5V22.5H24.5" stroke="#C2875D" stroke-width="0.8" stroke-linecap="round"/>
+    <!-- Smile -->
+    <path d="M21.5 24C22.5 25.3 25.5 25.3 26.5 24" stroke="#9A5B32" stroke-width="1.1" stroke-linecap="round"/>
+    <!-- Blue Polo Shirt / Body -->
+    <path d="M12 34C12 30.5 16 28 20 28H28C32 28 36 30.5 36 34V46H12V34Z" fill="#2563EB"/>
+    <!-- Collar & Placket -->
+    <path d="M20 28L24 33L28 28" fill="#1D4ED8"/>
+    <path d="M24 32V38" stroke="#1E40AF" stroke-width="1.2"/>
+  </g>
+  <!-- Outer border ring -->
+  <circle cx="24" cy="24" r="22" stroke="#E2E8F0" stroke-width="1.5"/>
+</svg>

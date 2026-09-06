@@ -1,0 +1,50 @@
+<svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 3D Faceted Hexagonal / Cube Logo -->
+  <defs>
+    <linearGradient id="facet-top" x1="14" y1="6" x2="34" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="facet-left" x1="6" y1="16" x2="24" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="facet-right" x1="24" y1="18" x2="42" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="facet-bottom-left" x1="8" y1="28" x2="24" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="facet-bottom-right" x1="24" y1="28" x2="40" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="2" width="48" height="46" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <!-- Outer hexagon faceted rings -->
+    <!-- Top-left facet -->
+    <path d="M24 6L11 13.5L16 22L24 16.5L24 6Z" fill="#38BDF8"/>
+    <!-- Top-right facet -->
+    <path d="M24 6L37 13.5L32 22L24 16.5L24 6Z" fill="#3B82F6"/>
+    <!-- Left outer facet -->
+    <path d="M11 13.5L11 28.5L16 26L16 22L11 13.5Z" fill="#06B6D4"/>
+    <!-- Right outer facet -->
+    <path d="M37 13.5L37 28.5L32 26L32 22L37 13.5Z" fill="#8B5CF6"/>
+    <!-- Center top facet -->
+    <path d="M24 16.5L16 22L24 27.5L32 22L24 16.5Z" fill="#60A5FA"/>
+    <!-- Center bottom left facet -->
+    <path d="M16 22L16 32L24 37.5L24 27.5L16 22Z" fill="#EC4899"/>
+    <!-- Center bottom right facet -->
+    <path d="M32 22L32 32L24 37.5L24 27.5L32 22Z" fill="#F43F5E"/>
+    <!-- Bottom left outer facet -->
+    <path d="M11 28.5L24 42L24 37.5L16 32L11 28.5Z" fill="#F59E0B"/>
+    <!-- Bottom right outer facet -->
+    <path d="M37 28.5L24 42L24 37.5L32 32L37 28.5Z" fill="#FB923C"/>
+  </g>
+</svg>
